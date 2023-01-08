@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+}
+
+h1 {
+    float: right;
+    top: 27px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #000000;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow-y: hidden;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.background {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.block__logo {
+    width: 111px;
+    height: 111px;
+    background-color: #d9d9d9;
+}
+
+.block__logo__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111px;
+    height: 111px;
+}
+
+.block__socSeti {
+    width: 419px;
+    height: 111px;
+    background-color: #d9d9d9;
+}
+
+.block__socSeti__image {
+    display: flex;
+}
+
+.block__socSeti__image img {
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+
+.container {
+    padding: 0 70px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.containerContent {
+    padding: 0 70px;
+    font-size: 36px;
+}
+
+.block__tiitleText {
+    z-index: -2;
+    top: -31px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.TitleText__MainScrin {
+    font-weight: bold;
+}
+
+.block__circleNext {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+
+.block__circleNext__1th,
+.block__circleNext__2th,
+.block__circleNext__3th {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #d9d9d9;
+}
+
+.ViewProj {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    background: #D9D9D9;
+    border: none;
+    width: 276px;
+    height: 84px;
+    cursor: pointer;
+}
+
+.transition {
+    transition: 0.4s;
+}
+
+.ViewProj:hover {
+    background: #b3b3b3;
+}
+
+.UpBlock {
+    display: flex;
+    margin-top: 164px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.description {
+    position: absolute;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: justify;
+    word-spacing: 10px;
+}
+
+.PhoneImage {
+    position: absolute;
+    height: 413px;
+    left: 780px;
+    top: 210px;
+    z-index: 2;
+}
+
+.PCImage {
+    height: 550px;
+    left: 857px;
+}
+
+.LeftBlock {
+    position: relative;
+    width: 696px;
+}
