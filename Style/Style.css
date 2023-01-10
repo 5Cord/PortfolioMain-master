@@ -26,17 +26,17 @@ h1 {
 body,
 html {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #f0f0f0;
     position: relative;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     z-index: -1;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 31px;
+    padding-top: 31px;
 }
 
 .background {
@@ -151,6 +151,14 @@ nav {
     justify-content: space-between;
 }
 
+.DownBlock {
+    display: flex;
+    margin-top: 164px;
+    position: relative;
+    justify-content: space-between;
+    height: 20%;
+}
+
 .description {
     position: absolute;
     font-style: normal;
@@ -158,23 +166,67 @@ nav {
     font-size: 35px;
     line-height: 43px;
     text-align: justify;
-    word-spacing: 10px;
+    word-spacing: 18px;
 }
 
 .PhoneImage {
     position: absolute;
-    height: 413px;
-    left: 780px;
-    top: 210px;
+    left: -37px;
+    top: 188px;
+    width: 216px;
+    height: 425px;
     z-index: 2;
 }
 
 .PCImage {
-    height: 550px;
-    left: 857px;
+    height: 552px;
+    left: 877px;
 }
 
 .LeftBlock {
     position: relative;
-    width: 696px;
+    width: 38.2%;
+}
+
+.RightBlock {
+    position: relative;
+}
+
+.screenUp {
+    position: absolute;
+    height: 352px;
+    left: 1154px;
+    top: 144px;
+}
+
+.screenDonw {
+    position: absolute;
+    height: 352px;
+    left: 774px;
+    top: 0px;
+}
+
+.DownRightBlockScreen {
+    width: 61.8%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 111px;
+    background: #D9D9D9;
+}
+
+.footer__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: justify;
+}
+
+.DownLeftBlock {
+    position: relative;
+    width: 38.2%;
 }
